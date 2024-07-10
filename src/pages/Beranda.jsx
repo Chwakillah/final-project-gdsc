@@ -1,7 +1,7 @@
 const Beranda = () => {
   return (
     <div>
-      
+      Beranda
     </div>
   )
 }

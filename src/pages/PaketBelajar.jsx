@@ -1,7 +1,7 @@
 const PaketBelajar = () => {
   return (
     <div>
-      
+      paket
     </div>
   )
 }
