@@ -1,10 +1,9 @@
 function App() {
-
   return (
-    <>
-      <h1 className='text-xl font-bold text-red-500'>Hello tailwind</h1>
-    </>
-  )
+    <div className="font-sans text-hijau-700 p-4">
+      Ini adalah contoh teks dengan font Public Sans.
+    </div>
+  );
 }
 
-export default App
+export default App;
