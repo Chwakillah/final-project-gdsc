@@ -1,3 +1,8 @@
+import { NavLink } from "react-router-dom";
+import { navLinks } from "../data/index.js";
+import { navProfiles } from "../data/index.js";
+
+
 const NavbarComponents = () => {
   return (
     <div>
@@ -22,34 +27,48 @@ const NavbarComponents = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-base text-secondary-abu font-semibold"
+              className="flex gap-4 flex-col dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 px-4 py-6 shadow text-base text-secondary-abu font-semibold"
             >
-              <li>
-                <a>Beranda</a>
-              </li>
-              <li>
-                <a>Paket Belajar</a>
-              </li>
-              <li>
-                <a>Kelas</a>
-              </li>
+              {navLinks.map((link) => {
+                return (
+                  <li key={link.id}>
+                    <NavLink
+                    to={link.path}
+                    className={({ isActive }) =>
+                      `${
+                        isActive ? "border-b-2 border-hijau-500 text-hijau-500" : ""
+                      } hover:text-hijau-500 hover:bg-transparent px-2 py-2`
+                    } end
+                  >
+                    {link.text}
+                  </NavLink>
+                  </li>
+                );
+              })}
             </ul>
           </div>
-          <a className="btn btn-ghost md:text-3xl text-xl text-hijau-500 italic">
+          <NavLink to="/" className="btn btn-ghost md:text-3xl text-xl text-hijau-500 italic">
             Les<span className="text-oren-500">Tasya</span>
-          </a>
+          </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-base text-secondary-abu font-semibold">
-            <li>
-              <a className="hover:text-hijau-500 hover:bg-transparent">Beranda</a>
-            </li>
-            <li>
-              <a className="hover:text-hijau-500 hover:bg-transparent">Paket Belajar</a>
-            </li>
-            <li>
-              <a className="hover:text-hijau-500 hover:bg-transparent">Kelas</a>
-            </li>
+          <ul className="flex gap-4 text-base text-secondary-abu font-semibold">
+            {navLinks.map((link) => {
+              return (
+                <li key={link.id}>
+                  <NavLink
+                    to={link.path}
+                    className={({ isActive }) =>
+                      `${
+                        isActive ? "border-b-2 border-hijau-500 text-hijau-500" : ""
+                      } hover:text-hijau-500 hover:bg-transparent px-2 py-2`
+                    } end
+                  >
+                    {link.text}
+                  </NavLink>
+                </li>
+              );
+            })}
           </ul>
         </div>
         <div className="navbar-end">
@@ -72,7 +91,7 @@ const NavbarComponents = () => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 1 0 0 4 0 2 2 0 0 1-4 0z"
                     />
                   </svg>
                   <span className="badge badge-sm indicator-item">1</span>
@@ -83,12 +102,16 @@ const NavbarComponents = () => {
                 className="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow"
               >
                 <div className="card-body">
-                  <span className="text-lg font-bold text-hijau-800">2 Items</span>
-                  <span className="text-hijau-500 font-medium">Subtotal: Rp499.000</span>
+                  <span className="text-lg font-bold text-hijau-800">
+                    2 Items
+                  </span>
+                  <span className="text-hijau-500 font-medium">
+                    Subtotal: Rp499.000
+                  </span>
                   <div className="card-actions">
-                    <button className="btn bg-hijau-500 hover:bg-hijau-600 text-white btn-block">
+                    <NavLink to='/keranjang' className="btn bg-hijau-500 hover:bg-hijau-600 text-white btn-block">
                       Lihat Keranjang
-                    </button>
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -107,21 +130,26 @@ const NavbarComponents = () => {
                 </div>
               </div>
               <ul
-                tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-base text-secondary-abu font-semibold"
-              >
-                <li>
-                  <a>
-                    Profil
-                  </a>
-                </li>
-                <li>
-                  <a>Pengaturan</a>
-                </li>
-                <li>
-                  <a>Keluar</a>
-                </li>
-              </ul>
+              tabIndex={0}
+              className="flex gap-4 flex-col dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 px-4 py-6 shadow text-base text-secondary-abu font-semibold"
+            >
+              {navProfiles.map((link) => {
+                return (
+                  <li key={link.id}>
+                    <NavLink
+                    to={link.path}
+                    className={({ isActive }) =>
+                      `${
+                        isActive ? "border-b-2 border-hijau-500 text-hijau-500" : ""
+                      } hover:text-hijau-500 hover:bg-transparent px-2 py-2`
+                    } end
+                  >
+                    {link.text}
+                  </NavLink>
+                  </li>
+                );
+              })}
+            </ul>
             </div>
           </div>
         </div>
