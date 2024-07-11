@@ -1,12 +1,29 @@
+import {useState, useEffect} from 'react'
 import { NavLink } from "react-router-dom";
 import { navLinks } from "../data/index.js";
 import { navProfiles } from "../data/index.js";
 
 
 const NavbarComponents = () => {
+  const [changeBorder, setChangeBorder] = useState(false)
+
+  const changeNavbarBorder = () => {
+    if (window.scrollY > 50){
+      setChangeBorder(true);
+    } else{
+      setChangeBorder(false);
+    }
+  }
+
+  useEffect(() => {
+    changeNavbarBorder();
+
+    window.addEventListener('scroll', changeNavbarBorder);
+  })
+
   return (
     <div>
-      <div className="navbar bg-base-100 md:px-16 md:py-4 py-2 border-b border-abu">
+      <div className= {`${changeBorder ? 'border-b border-abu' : ''} navbar bg-base-100 md:px-16 md:py-4 py-1 fixed top-0 w-full z-50 transition-all duration-300`}>
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
