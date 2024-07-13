@@ -1,12 +1,11 @@
 import HeroSection from "../section/HeroSection";
-import TentangKami from "../section/TentangKami";
-TentangKami
+import TentangKamiSection from "../section/TentangKamiSection";
 
 const Beranda = () => {
   return (
     <div>
       <HeroSection/>
-      <TentangKami/>
+      <TentangKamiSection/>
     </div>
   );
 };

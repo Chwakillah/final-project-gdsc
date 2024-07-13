@@ -13,6 +13,7 @@ export default {
       },
       colors: {
         oren: {
+          200: '#FFFAF5',
           500: '#FFC27A',
         },
         hijau: {
