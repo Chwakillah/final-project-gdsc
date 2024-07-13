@@ -17,6 +17,7 @@ export default {
           500: '#FFC27A',
         },
         hijau: {
+          sage: '#F0FBF7',
           100: '#FFFAF5',
           200: '#E9F8F3',
           500: '#20B486',

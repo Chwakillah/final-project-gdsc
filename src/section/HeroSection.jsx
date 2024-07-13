@@ -6,7 +6,7 @@ import CircleOrange from '../assets/img/hero/circle-orange.png'
 function HeroSection() {
   return (
     <div>
-      <header className="w-full min-h-screen px-8 md:px-20 flex flex-col lg:flex-row justify-center gap-12 relative items-center md:mt-10">
+      <header className="w-full min-h-screen px-8 md:px-20 flex flex-col lg:flex-row justify-center gap-12 relative items-center md:mt-10 bg-gradient-to-b from-hijau-sage to-white">
         <div className='flex flex-col gap-16 lg:gap-20 lg:flex-row'>
           <img src={Sparkle} alt="vektor" className='absolute top-24 lg:top-52 md:left-7 lg:left-16 md:size-6 lg:size-8 size-4 left-2'/>
           <img src={CirclePurple} alt="vektor" className='absolute top-[70px] left-1/2 size-2 lg:size-3 lg:top-44 lg:left-1/4'/>

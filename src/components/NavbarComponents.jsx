@@ -6,12 +6,15 @@ import { navProfiles } from "../data/index.js";
 
 const NavbarComponents = () => {
   const [changeBorder, setChangeBorder] = useState(false)
+  const [changeColor, setChangeColor] = useState('bg-gradient-to-b from-hijau-200 to-hijau-sage')
 
   const changeNavbarBorder = () => {
     if (window.scrollY > 50){
       setChangeBorder(true);
+      setChangeColor('bg-white')
     } else{
       setChangeBorder(false);
+      setChangeColor('bg-gradient-to-b from-hijau-200 to-hijau-sage')
     }
   }
 
@@ -23,7 +26,7 @@ const NavbarComponents = () => {
 
   return (
     <div>
-      <div className= {`${changeBorder ? 'border-b border-abu' : ''} navbar bg-base-100 md:px-16 md:py-4 py-1 fixed top-0 w-full z-50 transition-all duration-300`}>
+      <div className= {`${changeBorder ? 'border-b border-abu' : ''} ${changeColor} navbar md:px-16 md:py-4 py-1 fixed top-0 w-full z-50 transition-all duration-300`}>
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
