@@ -1,4 +1,5 @@
 import HeroSection from "../section/HeroSection";
+import PreviewKelas from "../section/PreviewKelas";
 import TentangKamiSection from "../section/TentangKamiSection";
 
 const Beranda = () => {
@@ -6,6 +7,7 @@ const Beranda = () => {
     <div>
       <HeroSection/>
       <TentangKamiSection/>
+      <PreviewKelas/>
     </div>
   );
 };

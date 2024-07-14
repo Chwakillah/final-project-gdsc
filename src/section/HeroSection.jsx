@@ -6,15 +6,15 @@ import CircleOrange from '../assets/img/hero/circle-orange.png'
 function HeroSection() {
   return (
     <div>
-      <header className="w-full min-h-screen px-8 md:px-20 flex flex-col lg:flex-row justify-center gap-12 relative items-center md:mt-10 bg-gradient-to-b from-hijau-sage to-white">
+      <header className="w-full min-h-screen px-8 md:px-20 flex flex-col lg:flex-row justify-center gap-12 relative items-center bg-gradient-to-b from-hijau-sage to-white py-24 z-0">
         <div className='flex flex-col gap-16 lg:gap-20 lg:flex-row'>
-          <img src={Sparkle} alt="vektor" className='absolute top-24 lg:top-52 md:left-7 lg:left-16 md:size-6 lg:size-8 size-4 left-2'/>
-          <img src={CirclePurple} alt="vektor" className='absolute top-[70px] left-1/2 size-2 lg:size-3 lg:top-44 lg:left-1/4'/>
+          <img src={Sparkle} alt="vektor" className='absolute top-24 lg:top-48 md:left-7 lg:left-8 md:size-6 lg:size-8 size-4 left-2'/>
+          <img src={CirclePurple} alt="vektor" className='absolute top-[70px] left-1/2 size-2 lg:size-3 lg:top-40 lg:left-1/4'/>
           <img src={CircleOrange} alt="vektor" className='absolute top-16 md:top-24 size-3 left-3/4'/>
           
           <div className='flex flex-col gap-8 md:gap-12 lg:w-1/2'>
             <div className='flex flex-col gap-2 justify-center w-full lg:gap-4'>
-              <h4 className='text-hijau-500 text-xs md:text-base font-medium lg:text-xl'>RAIH IMPIAN MASUK PERGURUAN TINGGI NEGERI</h4>
+              <h4 className='text-hijau-500 text-xs md:text-base font-medium lg:text-xl mt-12'>RAIH IMPIAN MASUK PERGURUAN TINGGI NEGERI</h4>
               <h1 className='text-hijau-800 text-2xl md:text-3xl lg:text-5xl font-semibold'>
                 Percayakan <span className='text-hijau-600'>Persiapanmu</span> <br /> Masuk <span className='text-hijau-600'>PTN </span> 
                 bersama <br /> <span className='text-hijau-500'>Les</span> <span className='text-oren-500'>Tasya</span>

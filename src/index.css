@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import "daisyui";
+
+.slick-slide > div{
+    margin: 0 16px;
+}
