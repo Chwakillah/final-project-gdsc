@@ -8,19 +8,19 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 
 function TentangKami() {
   return (
-    <div className="w-full min-h-screen px-8 flex flex-col md:flex-row justify-center items-center gap-12 md:gap-16 relative md:px-20 overflow-x-hidden">
+    <div className="w-full min-h-screen px-8 flex flex-col md:flex-row justify-center items-center gap-12 md:gap-16 relative md:px-20 overflow-x-hidden py-24">
       <img
         src={CirclePurple}
         alt="vektor"
-        className="absolute top-28 left-4/5 size-2 lg:size-3 lg:top-52 lg:left-1/2"
+        className="absolute top-28 left-3/4 size-2 lg:size-3 lg:top-52 lg:left-1/2"
       />
       <img
         src={VektorGelombang}
         alt="vektor"
-        className="absolute -right-4 lg:-right-2 top-32 md:top-80 lg:top-96"
+        className="absolute -right-6 lg:-right-2 top-40 md:top-80 lg:top-96"
       />
       <div className="w-3/4 md:w-1/2 order-2 md:order-1">
-        <img src={TentangKamiPic} alt="tentang kami pic" className="lg:w-3/4"/>
+        <img src={TentangKamiPic} alt="tentang kami pic" className="lg:w-3/4 block mx-auto"/>
       </div>
       <div className="flex flex-col gap-8 md:gap-6 md:w-1/2 order-1 md:order-2">
         <div className="flex flex-col gap-2 lg:gap-4 justify-center">
