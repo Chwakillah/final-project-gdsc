@@ -1,7 +1,7 @@
 import HeroImage from '../assets/img/hero/hero-big-img.png'
-import Sparkle from '../assets/img/hero/Sparkle.png'
-import CirclePurple from '../assets/img/hero/circle-purple.png'
-import CircleOrange from '../assets/img/hero/circle-orange.png'
+import Sparkle from '../assets/img/vektor/Sparkle.png'
+import CirclePurple from '../assets/img/vektor/circle-purple.png'
+import CircleOrange from '../assets/img/vektor/circle-orange.png'
 
 function HeroSection() {
   return (

@@ -1,6 +1,6 @@
 import TentangKamiPic from "../assets/img/tentang/tentang-kami-hero.png";
-import VektorGelombang from "../assets/img/tentang/vektor-gelombang.png";
-import CirclePurple from '../assets/img/hero/circle-purple.png'
+import VektorGelombang from "../assets/img/vektor/vektor-gelombang.png";
+import CirclePurple from '../assets/img/vektor/circle-purple.png'
 import { PiGraduationCap } from "react-icons/pi";
 import { IoVideocamOutline } from "react-icons/io5";
 import { MdOutlineGroups } from "react-icons/md";

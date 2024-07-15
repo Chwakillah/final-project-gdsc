@@ -2,7 +2,9 @@ import { previewKelas } from "../data/index.js";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Sparkle from '../assets/img/hero/Sparkle.png'
+import Sparkle from '../assets/img/vektor/Sparkle.png'
+import Line from '../assets/img/vektor/vector-persiapan.png'
+import CirclePurple from '../assets/img/vektor/circle-purple.png'
 
 const PreviewKelas = () => {
     var settings = {
@@ -46,6 +48,8 @@ const PreviewKelas = () => {
   return (
     <div className="w-full min-h-screen md:px-20 overflow-x-hidden px-8 flex flex-col lg:flex-row justify-center lg:items-center bg-hijau-200 relative lg:gap-8">
         <img src={Sparkle} alt="vektor" className='absolute top-24 lg:top-56 md:right-20 lg:left-12 md:size-6 lg:size-8 size-6 right-8'/>
+        <img src={Line} alt="vektor" className='absolute top-44 -left-12 lg:top-[380px] lg:left-12'/>
+        <img src={CirclePurple} alt="vektor" className='absolute bottom-16 lg:top-56 -right-2 lg:right-4 size-6 lg:size-4'/>
       <div className="lg:w-1/4 flex flex-col items-center lg:items-start">
         <div className="flex flex-col text-center lg:text-left gap-2 lg:w-full">
           <h1 className="text-hijau-800 text-2xl md:text-3xl lg:text-5xl font-semibold">
