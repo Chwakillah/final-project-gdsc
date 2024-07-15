@@ -14,7 +14,7 @@ function HeroSection() {
           
           <div className='flex flex-col gap-8 md:gap-12 lg:w-1/2'>
             <div className='flex flex-col gap-2 justify-center w-full lg:gap-4'>
-              <h4 className='text-hijau-500 text-xs md:text-base font-medium lg:text-xl mt-12'>RAIH IMPIAN MASUK PERGURUAN TINGGI NEGERI</h4>
+              <h4 className='text-hijau-500 text-xs md:text-base font-medium lg:text-xl'>RAIH IMPIAN MASUK PERGURUAN TINGGI NEGERI</h4>
               <h1 className='text-hijau-800 text-2xl md:text-3xl lg:text-5xl font-semibold'>
                 Percayakan <span className='text-hijau-600'>Persiapanmu</span> <br /> Masuk <span className='text-hijau-600'>PTN </span> 
                 bersama <br /> <span className='text-hijau-500'>Les</span> <span className='text-oren-500'>Tasya</span>
