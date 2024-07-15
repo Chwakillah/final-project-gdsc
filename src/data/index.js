@@ -5,6 +5,18 @@ import Preview4 from "../assets/img/preview/preview4.png";
 import Preview5 from "../assets/img/preview/preview5.png";
 import Preview6 from "../assets/img/preview/preview6.png";
 
+import tersedia1 from "../assets/img/tersedia/tersedia1.png";
+import tersedia2 from "../assets/img/tersedia/tersedia2.png";
+import tersedia3 from "../assets/img/tersedia/tersedia3.png";
+
+import teacher1 from "../assets/img/teacher/alish.png";
+import teacher2 from "../assets/img/teacher/syakill.png";
+import teacher3 from "../assets/img/teacher/nabil.png";
+import teacher4 from "../assets/img/teacher/denisa.png";
+import teacher5 from "../assets/img/teacher/rafif.png";
+import teacher6 from "../assets/img/teacher/mei.png";
+
+
 export const navLinks = [
     {
       id: 1,
@@ -88,5 +100,69 @@ export const navProfiles = [
       mapel: 'Kimia',
       guru: 'Andito',
       lihat: 'Lihat Demo'
+    },
+  ];
+  export const kelasTersedia = [
+    {
+      id: 1,
+      img: tersedia1,
+      judul: 'Tes Potensi Skolastik (TPS)',
+      detail: 'Penalaran Umum, Penalaran Matematika, Pengetahuan dan Pemahaman Umum, Pemahaman Bacaan dan Menulis, Pengetahuan Kuantitatif, Literasi Bahasa Indonesia, Literasi Bahasa Inggris'
+    },
+    {
+      id: 2,
+      img: tersedia2,
+      judul: 'Tes Potensi Akademik (TPA)',
+      detail: 'Matematika, Biologi, Kimia, Fisika, Sejarah, Ekonomi, Geografi, Sosiologi'
+    },
+    {
+      id: 3,
+      img: tersedia3,
+      judul: 'Try Out (TO)',
+      detail: 'Tes untuk menguji pemahaman materi TPS dan TPA'
+    },
+  ];
+  export const masterTeacher = [
+    {
+      id: 1,
+      img: teacher1,
+      nama: 'Alish',
+      mapel: 'Master Teacher PK/PM',
+      univ: 'Statistika UI',
+    },
+    {
+      id: 2,
+      img: teacher2,
+      nama: 'Syakill',
+      mapel: 'Master Teacher PBM/PPU',
+      univ: 'Sistem Informasi UNSRI',
+    },
+    {
+      id: 3,
+      img: teacher3,
+      nama: 'Nabil',
+      mapel: 'Master Teacher PU',
+      univ: 'Kedokteran UNPAD',
+    },
+    {
+      id: 4,
+      img: teacher4,
+      nama: 'Denisa',
+      mapel: 'Master Teacher English',
+      univ: 'Sastra Inggris UNPAD',
+    },
+    {
+      id: 5,
+      img: teacher5,
+      nama: 'Rafif',
+      mapel: 'Master Teacher PK/PM',
+      univ: 'Matematika ITB',
+    },
+    {
+      id: 6,
+      img: teacher6,
+      nama: 'Mei',
+      mapel: 'Master Teacher BINDO',
+      univ: 'Kedokteran UNPAD',
     },
   ];
