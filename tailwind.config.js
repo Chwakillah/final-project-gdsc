@@ -9,6 +9,11 @@ export default {
         sans: ['"Public Sans"', "sans-serif"],
       },
       colors: {
+        background: {
+          light: "#F6F9FF",
+          white: "#FFFFFF",
+          dark: "#F0F0F0",
+        },
         oren: {
           200: "#FFFAF5",
           500: "#FFC27A",

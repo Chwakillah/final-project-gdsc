@@ -10,14 +10,14 @@ import UmpanBalik from "../section/UmpanBalik";
 const Beranda = () => {
   return (
     <div>
-      <HeroSection/>
-      <TentangKamiSection/>
-      <PreviewKelas/>
-      <Iklan/>
-      <KelasTersedia/>
-      <MasterTeacher/>
-      <UmpanBalik/>
-      <JoinUs/>
+      <HeroSection />
+      <TentangKamiSection />
+      <PreviewKelas />
+      <Iklan />
+      <KelasTersedia />
+      <MasterTeacher />
+      <UmpanBalik />
+      <JoinUs />
     </div>
   );
 };

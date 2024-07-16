@@ -22,7 +22,9 @@ const UmpanBalik = () => {
                 {umpan.nama}
                 <time className="text-xs opacity-50 pl-2">{umpan.jurusan}</time>
               </div>
-              <div className="chat-bubble bg-hijau-500 text-white">{umpan.review}</div>
+              <div className="chat-bubble bg-hijau-500 text-white">
+                {umpan.review}
+              </div>
             </div>
           ))}
         </div>
@@ -38,7 +40,9 @@ const UmpanBalik = () => {
                 {umpan.nama}
                 <time className="text-xs opacity-50 pl-2">{umpan.jurusan}</time>
               </div>
-              <div className="chat-bubble bg-hijau-500 text-white">{umpan.review}</div>
+              <div className="chat-bubble bg-hijau-500 text-white">
+                {umpan.review}
+              </div>
             </div>
           ))}
         </div>
