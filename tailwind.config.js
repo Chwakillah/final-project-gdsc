@@ -12,7 +12,8 @@ export default {
         background: {
           light: "#F6F9FF",
           white: "#FFFFFF",
-          dark: "#F0F0F0",
+          dark: "#BFBFBF",
+          subtle: "#F3F4F8",
         },
         oren: {
           200: "#FFFAF5",

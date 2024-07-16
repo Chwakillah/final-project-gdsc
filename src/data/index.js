@@ -238,3 +238,26 @@ export const navProfiles = [
       img: 'https://pahamify.com/wp-content/uploads/2022/06/Live-Class-Persiapan-UTBK-2023.png',
     },
   ];
+  export const kategoriPromo = [
+    {
+      id: 1,
+      img: 'https://pahamify.com/wp-content/uploads/2021/12/Live_Premium.png',
+      judul: 'Live Class',
+      deskripsi: 'Belajar secra real time dengan master teacher!',
+      beli: 'Lihat'
+    },
+    {
+      id: 2,
+      img: 'https://pahamify.com/wp-content/uploads/2021/12/Live_Regular.png',
+      judul: 'Akses Video',
+      deskripsi: 'Belajar semakin asyik dengan video super lengkap!',
+      beli: 'Lihat'
+    },
+    {
+      id: 3,
+      img: 'https://pahamify.com/wp-content/uploads/2022/03/20xTO.png',
+      judul: 'Super TO',
+      deskripsi: 'Uji pemahamanmu dengan soal-soal ter-update buat SNBT!',
+      beli: 'Lihat'
+    },
+  ];
