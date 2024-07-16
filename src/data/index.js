@@ -107,7 +107,7 @@ export const navProfiles = [
       id: 1,
       img: tersedia1,
       judul: 'Tes Potensi Skolastik (TPS)',
-      detail: 'Penalaran Umum, Penalaran Matematika, Pengetahuan dan Pemahaman Umum, Pemahaman Bacaan dan Menulis, Pengetahuan Kuantitatif, Literasi Bahasa Indonesia, Literasi Bahasa Inggris'
+      detail: 'Penalaran Umum, Penalaran Matematika, Pengetahuan Kuantitatif, Bahasa Inggris, Bahasa Indonesia'
     },
     {
       id: 2,
@@ -259,5 +259,32 @@ export const navProfiles = [
       judul: 'Super TO',
       deskripsi: 'Uji pemahamanmu dengan soal-soal ter-update buat SNBT!',
       beli: 'Lihat'
+    },
+  ];
+  export const kelasTPS = [
+    {
+      id: 1,
+      img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_8a34yp_3507.png?height=72&convert=webp',
+      judul: 'Penalaran Umum',
+    },
+    {
+      id: 2,
+      img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_p7y4x6_1009.png?height=72&convert=webp',
+      judul: 'Penalaran Matematika',
+    },
+    {
+      id: 3,
+      img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_p7y4x6_1009.png?height=72&convert=webp',
+      judul: 'Pengetahuan Kuantitatif',
+    },
+    {
+      id: 4,
+      img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_094wa3_9266.png?height=72&convert=webp',
+      judul: 'Bahasa Inggris',
+    },
+    {
+      id: 5,
+      img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_094wa3_9266.png?height=72&convert=webp',
+      judul: 'Bahasa Indonesia',
     },
   ];

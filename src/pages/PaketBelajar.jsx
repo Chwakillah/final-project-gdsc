@@ -1,14 +1,18 @@
 import { useState, useEffect } from "react";
+
 import { HiNewspaper } from "react-icons/hi";
 import { PiBookBookmarkFill } from "react-icons/pi";
 import { IoTimeOutline } from "react-icons/io5";
 import { IoTicket } from "react-icons/io5";
+
 import { paketPromo, kategoriPromo } from "../data/index.js";
+
 import VektorGelombang from "../assets/img/vektor/vektor-gelombang.png";
 import Sparkle from "../assets/img/vektor/Sparkle.png";
 import CirclePurple from "../assets/img/vektor/circle-purple.png";
 import CircleOrange from "../assets/img/vektor/circle-orange.png";
 import Zigzag from "../assets/img/vektor/zigzag-green.svg";
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
