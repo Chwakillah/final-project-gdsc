@@ -228,3 +228,13 @@ export const navProfiles = [
       review: 'Worth it banget! TITIK',
     },
   ];
+  export const paketPromo = [
+    {
+      id: 1,
+      img: 'https://pahamify.com/wp-content/uploads/2022/06/WO1.png',
+    },
+    {
+      id: 2,
+      img: 'https://pahamify.com/wp-content/uploads/2022/06/Live-Class-Persiapan-UTBK-2023.png',
+    },
+  ];
