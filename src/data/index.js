@@ -345,19 +345,22 @@ export const navProfiles = [
           i: 1,
           subicon:'MdCollectionsBookmark',
           submateri: 'Materi',
-          lihat: 'Lihat'
+          lihat: 'Lihat',
+          path: 'https://drive.google.com/file/d/1-9LB_Z05teskDNe5MMZjzQS_ny1IAyBd/view?usp=drive_link'
         },
         {
           i: 2,
           subicon:'IoDocumentText',
           submateri: 'Latihan Soal',
-          lihat: 'Lihat'
+          lihat: 'Lihat',
+          path: 'https://forms.gle/kysaRXhntQSjj6pp9'
         },
         {
-          i: 1,
+          i: 3,
           subicon:'MdVideoLibrary',
           submateri: 'Video Belajar',
-          lihat: 'Lihat'
+          lihat: 'Lihat',
+          path: '/sintaksis1'
         },
       ]
     },
@@ -378,7 +381,7 @@ export const navProfiles = [
           lihat: 'IoIosLock'
         },
         {
-          i: 1,
+          i: 3,
           subicon:'MdVideoLibrary',
           submateri: 'Video Belajar',
           lihat: 'IoIosLock'
@@ -402,7 +405,7 @@ export const navProfiles = [
           lihat: 'IoIosLock'
         },
         {
-          i: 1,
+          i: 3,
           subicon:'MdVideoLibrary',
           submateri: 'Video Belajar',
           lihat: 'IoIosLock'
@@ -426,7 +429,7 @@ export const navProfiles = [
           lihat: 'IoIosLock'
         },
         {
-          i: 1,
+          i: 3,
           subicon:'MdVideoLibrary',
           submateri: 'Video Belajar',
           lihat: 'IoIosLock'
@@ -435,7 +438,7 @@ export const navProfiles = [
     },
     {
       id: 5,
-      judul: 'SINTAKSIS',
+      judul: 'SINTAKSIS 5',
       sub: [
         {
           i: 1,
@@ -450,7 +453,7 @@ export const navProfiles = [
           lihat: 'IoIosLock'
         },
         {
-          i: 1,
+          i: 3,
           subicon:'MdVideoLibrary',
           submateri: 'Video Belajar',
           lihat: 'IoIosLock'
@@ -474,7 +477,7 @@ export const navProfiles = [
           lihat: 'IoIosLock'
         },
         {
-          i: 1,
+          i: 3,
           subicon:'MdVideoLibrary',
           submateri: 'Video Belajar',
           lihat: 'IoIosLock'

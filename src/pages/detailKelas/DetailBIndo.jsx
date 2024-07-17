@@ -1,17 +1,18 @@
 import { MdCollectionsBookmark, MdVideoLibrary } from "react-icons/md";
 import { IoIosLock } from "react-icons/io";
 import { IoDocumentText } from "react-icons/io5";
-import { materiBindo } from "../data/index.js";
+import { materiBindo } from "../../data/index.js";
+import { NavLink } from "react-router-dom";
 
 const getIcon = (iconName) => {
   switch (iconName) {
-    case 'MdCollectionsBookmark':
+    case "MdCollectionsBookmark":
       return <MdCollectionsBookmark className="size-7 text-hijau-600" />;
-    case 'IoDocumentText':
+    case "IoDocumentText":
       return <IoDocumentText className="size-7 text-hijau-600" />;
-    case 'MdVideoLibrary':
+    case "MdVideoLibrary":
       return <MdVideoLibrary className="size-7 text-hijau-600" />;
-    case 'IoIosLock':
+    case "IoIosLock":
       return <IoIosLock className="size-7 text-hijau-500" />;
     default:
       return null;
@@ -49,7 +50,10 @@ const DetailBIndo = () => {
             </summary>
             <div className="collapse-content">
               {materi.sub.map((detail) => (
-                <div className="flex gap-4 items-center mb-4" key={detail.i}>
+                <div
+                  className="flex gap-4 items-center mb-4"
+                  key={`${materi.id}-${detail.i}`}
+                >
                   {getIcon(detail.subicon)}
                   <div className="flex justify-between items-center w-full">
                     <h3 className="text-secondary-abu font-semibold text-sm">
@@ -57,9 +61,12 @@ const DetailBIndo = () => {
                     </h3>
                     <div>
                       {materi.id === 1 ? (
-                        <button className="btn btn-primary btn-xs sm:btn-sm  text-white hover:bg-hijau-600 font-normal">
+                        <NavLink
+                          to={detail.path}
+                          className="btn btn-primary btn-xs sm:btn-sm text-white hover:bg-hijau-600 font-normal"
+                        >
                           {detail.lihat}
-                        </button>
+                        </NavLink>
                       ) : (
                         <IoIosLock className="size-7 text-hijau-500" />
                       )}
