@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { navLinks, navProfiles } from "../data/index.js";
 
 const NavbarComponents = () => {
   const [changeBorder, setChangeBorder] = useState(false);
   const [changeColor, setChangeColor] = useState('bg-gradient-to-b from-hijau-200 to-hijau-sage');
+  const location = useLocation();
 
   const changeNavbarBorder = () => {
     if (window.scrollY > 50) {
@@ -19,7 +20,11 @@ const NavbarComponents = () => {
   useEffect(() => {
     changeNavbarBorder();
     window.addEventListener('scroll', changeNavbarBorder);
-  }, []);
+  });
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   return (
     <div>

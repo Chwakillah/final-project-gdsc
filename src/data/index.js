@@ -16,7 +16,6 @@ import teacher4 from "../assets/img/teacher/denisa.png";
 import teacher5 from "../assets/img/teacher/rafif.png";
 import teacher6 from "../assets/img/teacher/mei.png";
 
-
 export const navLinks = [
     {
       id: 1,
@@ -335,5 +334,151 @@ export const navProfiles = [
       id: 4,
       img: 'https://imgix3.ruangguru.com/assets/miscellaneous/png_d7r2f6_548.png?convert=webp',
       judul: 'Sejarah',
+    },
+  ];
+  export const materiBindo = [
+    {
+      id: 1,
+      judul: 'SINTAKSIS 1',
+      sub: [
+        {
+          i: 1,
+          subicon:'MdCollectionsBookmark',
+          submateri: 'Materi',
+          lihat: 'Lihat'
+        },
+        {
+          i: 2,
+          subicon:'IoDocumentText',
+          submateri: 'Latihan Soal',
+          lihat: 'Lihat'
+        },
+        {
+          i: 1,
+          subicon:'MdVideoLibrary',
+          submateri: 'Video Belajar',
+          lihat: 'Lihat'
+        },
+      ]
+    },
+    {
+      id: 2,
+      judul: 'SINTAKSIS 2',
+      sub: [
+        {
+          i: 1,
+          subicon:'MdCollectionsBookmark',
+          submateri: 'Materi',
+          lihat: 'IoIosLock'
+        },
+        {
+          i: 2,
+          subicon:'IoDocumentText',
+          submateri: 'Latihan Soal',
+          lihat: 'IoIosLock'
+        },
+        {
+          i: 1,
+          subicon:'MdVideoLibrary',
+          submateri: 'Video Belajar',
+          lihat: 'IoIosLock'
+        },
+      ]
+    },
+    {
+      id: 3,
+      judul: 'SINTAKSIS 3',
+      sub: [
+        {
+          i: 1,
+          subicon:'MdCollectionsBookmark',
+          submateri: 'Materi',
+          lihat: 'IoIosLock'
+        },
+        {
+          i: 2,
+          subicon:'IoDocumentText',
+          submateri: 'Latihan Soal',
+          lihat: 'IoIosLock'
+        },
+        {
+          i: 1,
+          subicon:'MdVideoLibrary',
+          submateri: 'Video Belajar',
+          lihat: 'IoIosLock'
+        },
+      ]
+    },
+    {
+      id: 4,
+      judul: 'SINTAKSIS 4',
+      sub: [
+        {
+          i: 1,
+          subicon:'MdCollectionsBookmark',
+          submateri: 'Materi',
+          lihat: 'IoIosLock'
+        },
+        {
+          i: 2,
+          subicon:'IoDocumentText',
+          submateri: 'Latihan Soal',
+          lihat: 'IoIosLock'
+        },
+        {
+          i: 1,
+          subicon:'MdVideoLibrary',
+          submateri: 'Video Belajar',
+          lihat: 'IoIosLock'
+        },
+      ]
+    },
+    {
+      id: 5,
+      judul: 'SINTAKSIS',
+      sub: [
+        {
+          i: 1,
+          subicon:'MdCollectionsBookmark',
+          submateri: 'Materi',
+          lihat: 'IoIosLock'
+        },
+        {
+          i: 2,
+          subicon:'IoDocumentText',
+          submateri: 'Latihan Soal',
+          lihat: 'IoIosLock'
+        },
+        {
+          i: 1,
+          subicon:'MdVideoLibrary',
+          submateri: 'Video Belajar',
+          lihat: 'IoIosLock'
+        },
+      ]
+    },
+    {
+      id: 6,
+      judul: 'PRAGMATIK',
+      sub: [
+        {
+          i: 1,
+          subicon:'MdCollectionsBookmark',
+          submateri: 'Materi',
+          lihat: 'IoIosLock'
+        },
+        {
+          i: 2,
+          subicon:'IoDocumentText',
+          submateri: 'Latihan Soal',
+          lihat: 'IoIosLock'
+        },
+        {
+          i: 1,
+          subicon:'MdVideoLibrary',
+          submateri: 'Video Belajar',
+          lihat: 'IoIosLock'
+        },
+      ]
     },
   ];
