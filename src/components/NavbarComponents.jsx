@@ -70,7 +70,7 @@ const NavbarComponents = () => {
               <div tabIndex={0} className="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow">
                 <div className="card-body">
                   <span className="text-lg font-bold text-hijau-800">2 Items</span>
-                  <span className="text-hijau-500 font-medium">Subtotal: Rp499.000</span>
+                  <span className="text-hijau-500 font-medium">Subtotal: Rp500.000</span>
                   <div className="card-actions">
                     <NavLink to='/keranjang' className="btn bg-hijau-500 hover:bg-hijau-600 text-white btn-block">
                       Lihat Keranjang

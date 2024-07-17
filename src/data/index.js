@@ -140,7 +140,7 @@ export const navProfiles = [
     {
       id: 3,
       img: teacher3,
-      nama: 'Nabil',
+      nama: 'Tasya',
       mapel: 'Master Teacher PU',
       univ: 'Kedokteran UNPAD',
     },
@@ -161,7 +161,7 @@ export const navProfiles = [
     {
       id: 6,
       img: teacher6,
-      nama: 'Mei',
+      nama: 'Muteya',
       mapel: 'Master Teacher BINDO',
       univ: 'Kedokteran UNPAD',
     },
@@ -264,27 +264,71 @@ export const navProfiles = [
   export const kelasTPS = [
     {
       id: 1,
-      img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_8a34yp_3507.png?height=72&convert=webp',
-      judul: 'Penalaran Umum',
+      img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_094wa3_9266.png?height=72&convert=webp',
+      judul: 'Bahasa Indonesia',
     },
     {
       id: 2,
-      img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_p7y4x6_1009.png?height=72&convert=webp',
-      judul: 'Penalaran Matematika',
-    },
-    {
-      id: 3,
-      img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_p7y4x6_1009.png?height=72&convert=webp',
-      judul: 'Pengetahuan Kuantitatif',
-    },
-    {
-      id: 4,
       img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_094wa3_9266.png?height=72&convert=webp',
       judul: 'Bahasa Inggris',
     },
     {
+      id: 3,
+      img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_8a34yp_3507.png?height=72&convert=webp',
+      judul: 'Penalaran Umum',
+    },
+    {
+      id: 4,
+      img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_p7y4x6_1009.png?height=72&convert=webp',
+      judul: 'Penalaran Matematika',
+    },
+    {
       id: 5,
-      img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_094wa3_9266.png?height=72&convert=webp',
-      judul: 'Bahasa Indonesia',
+      img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_p7y4x6_1009.png?height=72&convert=webp',
+      judul: 'Pengetahuan Kuantitatif',
+    },
+  ];
+  export const kelasSaintek = [
+    {
+      id: 1,
+      img: 'https://imgix3.ruangguru.com/assets/miscellaneous/png_psfd9u_4135.png?height=72&convert=webp',
+      judul: 'Matematika',
+    },
+    {
+      id: 2,
+      img: 'https://imgix3.ruangguru.com/assets/miscellaneous/png_nn2x1u_3629.png?height=72&convert=webp',
+      judul: 'Biologi',
+    },
+    {
+      id: 3,
+      img: 'https://imgix3.ruangguru.com/assets/miscellaneous/png_17o75f_3522.png?height=72&convert=webp',
+      judul: 'Kimia',
+    },
+    {
+      id: 4,
+      img: 'https://imgix3.ruangguru.com/assets/miscellaneous/png_1i9s3c_2970.png?height=72&convert=webp',
+      judul: 'Fisika',
+    },
+  ];
+  export const kelasSoshum = [
+    {
+      id: 1,
+      img: 'https://imgix3.ruangguru.com/assets/miscellaneous/png_vmzo6n_7596.png?convert=webp',
+      judul: 'Ekonomi',
+    },
+    {
+      id: 2,
+      img: 'https://imgix3.ruangguru.com/assets/miscellaneous/png_lvtfgu_7446.png?convert=webp',
+      judul: 'Sosiologi',
+    },
+    {
+      id: 3,
+      img: 'https://imgix3.ruangguru.com/assets/miscellaneous/png_l7cz7f_6162.png?convert=webp',
+      judul: 'Geografi',
+    },
+    {
+      id: 4,
+      img: 'https://imgix3.ruangguru.com/assets/miscellaneous/png_d7r2f6_548.png?convert=webp',
+      judul: 'Sejarah',
     },
   ];

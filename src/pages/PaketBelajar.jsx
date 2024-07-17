@@ -39,7 +39,7 @@ const PaketBelajar = () => {
   }, []);
 
   return (
-    <div className="w-full min-h-screen">
+    <div className="w-full min-h-screen overflow-x-hidden">
       <div className="w-full md:px-20 overflow-x-hidden px-8 md:pt-24 md:pb-12 pt-16 pb-8 flex flex-col relative gap-8 bg-gradient-to-b justify-center from-hijau-sage to-white">
         <div className="md:px-20">
           <div className="bg-base-200 collapse collapse-arrow mt-8 shadow-sm border border-background-light">

@@ -76,7 +76,7 @@ const PreviewKelas = () => {
         <div className="mt-8">
           <Slider {...settings}>
             {previewKelas.map((preview) => (
-              <div className="card bg-base-100 shadow-lg m-4" key={preview.id}>
+              <div className="card bg-base-100 m-4" key={preview.id}>
                 <figure>
                   <img
                     src={preview.img}
