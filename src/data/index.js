@@ -264,26 +264,31 @@ export const navProfiles = [
   export const kelasTPS = [
     {
       id: 1,
+      path:'/bindo',
       img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_094wa3_9266.png?height=72&convert=webp',
       judul: 'Bahasa Indonesia',
     },
     {
       id: 2,
+      path:'/bing',
       img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_094wa3_9266.png?height=72&convert=webp',
       judul: 'Bahasa Inggris',
     },
     {
       id: 3,
+      path:'/pu',
       img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_8a34yp_3507.png?height=72&convert=webp',
       judul: 'Penalaran Umum',
     },
     {
       id: 4,
+      path:'/pm',
       img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_p7y4x6_1009.png?height=72&convert=webp',
       judul: 'Penalaran Matematika',
     },
     {
       id: 5,
+      path:'/pk',
       img: 'https://imgix2.ruangguru.com/assets/miscellaneous/png_p7y4x6_1009.png?height=72&convert=webp',
       judul: 'Pengetahuan Kuantitatif',
     },

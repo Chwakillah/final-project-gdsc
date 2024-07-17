@@ -7,7 +7,7 @@ import LihatKeranjang from './pages/LihatKeranjang';
 import NavbarComponents from './components/NavbarComponents';
 import Pengaturan from './pages/Pengaturan';
 import FooterComponents from './components/FooterComponents';
-
+import DetailBIndo from './pages/DetailBIndo';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
         <Route path='/profil' Component={Profil}></Route>
         <Route path='/keranjang' Component={LihatKeranjang}></Route>
         <Route path='/pengaturan' Component={Pengaturan}></Route>
+        <Route path='/bindo' Component={DetailBIndo}></Route>
       </Routes>
       <FooterComponents/>
     </div>
