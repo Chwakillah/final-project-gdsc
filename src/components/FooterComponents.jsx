@@ -9,57 +9,69 @@ const FooterComponents = () => {
     <div>
       <footer className="footer bg-base-200 text-base-content p-10">
         <nav>
-          <h6 className="footer-title">MENU</h6>
-          {navLinks.map((link) => (
-            <li key={link.id} className="list-none">
-              <NavLink
-                to={link.path}
-                className={({ isActive }) =>
-                  `${
-                    isActive ? "" : ""
-                  } hover:text-hijau-500 hover:bg-transparent px-2 py-2`
-                }
-                end
-              >
-                {link.text}
-              </NavLink>
-            </li>
-          ))}
+          <h4 className="footer-title">MENU</h4>
+          <ul>
+            {navLinks.map((link) => (
+              <li key={link.id} className="list-none">
+                <NavLink
+                  to={link.path}
+                  className={({ isActive }) =>
+                    `${
+                      isActive ? "" : ""
+                    } hover:text-hijau-500 hover:bg-transparent px-2 py-2`
+                  }
+                  end
+                >
+                  {link.text}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
         </nav>
         <nav>
-          <h6 className="footer-title">PROFIL</h6>
-          {navProfiles.map((link) => (
-            <li key={link.id} className="list-none">
-              <NavLink
-                to={link.path}
-                className={({ isActive }) =>
-                  `${
-                    isActive ? "" : ""
-                  } hover:text-hijau-500 hover:bg-transparent px-2 py-2`
-                }
-                end
-              >
-                {link.text}
-              </NavLink>
-            </li>
-          ))}
+            <h4 className="footer-title">PROFIL</h4>
+          <ul>
+            {navProfiles.map((link) => (
+              <li key={link.id} className="list-none">
+                <NavLink
+                  to={link.path}
+                  className={({ isActive }) =>
+                    `${
+                      isActive ? "" : ""
+                    } hover:text-hijau-500 hover:bg-transparent px-2 py-2`
+                  }
+                  end
+                >
+                  {link.text}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
         </nav>
         <nav>
-          <h6 className="footer-title">Legal</h6>
-          <a className="hover:text-hijau-500 hover:bg-transparent cursor-pointer">
-            Terms of use
-          </a>
-          <a className="hover:text-hijau-500 hover:bg-transparent cursor-pointer">
-            Privacy policy
-          </a>
-          <a className="hover:text-hijau-500 hover:bg-transparent cursor-pointer">
-            Cookie policy
-          </a>
+          <h4 className="footer-title">PROFIL</h4>
+          <ul>
+            {navProfiles.map((link) => (
+              <li key={link.id} className="list-none">
+                <NavLink
+                  to={link.path}
+                  className={({ isActive }) =>
+                    `${
+                      isActive ? "" : ""
+                    } hover:text-hijau-500 hover:bg-transparent px-2 py-2`
+                  }
+                  end
+                >
+                  {link.text}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
         </nav>
       </footer>
       <footer className="footer bg-base-200 text-base-content border-secondary-abu border-t px-10 py-4">
         <aside className="grid-flow-col items-center">
-          <FaBookOpenReader className="size-8 text-hijau-500"/>
+          <FaBookOpenReader className="size-8 text-hijau-500" />
           <div className="flex flex-col gap-1">
             <p className="font-semibold text-hijau-500 text-base">
               Les <span className="text-oren-500">Tasya</span>

@@ -4,6 +4,7 @@ import Sparkle from "../assets/img/vektor/Sparkle.png";
 
 import { kelasTersedia } from "../data/index.js";
 
+
 const KelasTersedia = () => {
   return (
     <div className="w-full min-h-screen md:px-20 overflow-x-hidden px-8 py-24 flex flex-col justify-center items-center relative gap-8 bg-gradient-to-b from-white to-oren-200">
@@ -22,7 +23,11 @@ const KelasTersedia = () => {
         alt="vektor"
         className="absolute top-24 lg:top-56 md:right-20 lg:right-12 md:size-6 lg:size-8 size-6 right-8"
       />
-      <div className="flex flex-col text-center gap-4">
+      <div
+        className="flex flex-col text-center gap-4"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
         <h1 className="text-hijau-800 text-2xl md:text-3xl lg:text-5xl font-semibold">
           Kelas <span className="text-hijau-500">Tersedia</span>
         </h1>
@@ -36,6 +41,8 @@ const KelasTersedia = () => {
             <div
               className="card lg:card-side bg-base-100 shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out hover:bg-hijau-500 group"
               key={tersedia.id}
+              data-aos="zoom-in"
+              data-aos-delay={tersedia.id * 300}
             >
               <figure className="w-full h-48 lg:h-auto lg:w-48 relative">
                 <img

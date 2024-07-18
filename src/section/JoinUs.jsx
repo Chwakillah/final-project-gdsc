@@ -29,7 +29,11 @@ const JoinUs = () => {
             alt="vektor"
             className="absolute top-4 size-32 -right-4 lg:bottom-12 lg:size-40 lg:right-0 rotate-180"
           />
-          <div className="flex flex-col gap-8 md:gap-12 lg:w-1/2 lg:order-2 justify-center">
+          <div
+            className="flex flex-col gap-8 md:gap-12 lg:w-1/2 lg:order-2 justify-center"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <div className="flex flex-col gap-4 justify-center w-full lg:gap-6 text-center lg:text-start">
               <h1 className="text-hijau-800 text-2xl md:text-3xl lg:text-5xl font-semibold">
                 Siap Untuk <span className="text-hijau-500"> Sukses?</span>
@@ -45,7 +49,7 @@ const JoinUs = () => {
               </div>
             </div>
           </div>
-          <div className="lg:w-1/2">
+          <div className="lg:w-1/2" data-aos="fade-up" data-aos-duration="2000">
             <img src={Joinimg} alt="hero" className="w-full object-cover" />
           </div>
         </div>

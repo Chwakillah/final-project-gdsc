@@ -1,10 +1,11 @@
 import TentangKamiPic from "../assets/img/tentang/tentang-kami-hero.png";
 import VektorGelombang from "../assets/img/vektor/vektor-gelombang.png";
-import CirclePurple from '../assets/img/vektor/circle-purple.png'
+import CirclePurple from "../assets/img/vektor/circle-purple.png";
 import { PiGraduationCap } from "react-icons/pi";
 import { IoVideocamOutline } from "react-icons/io5";
 import { MdOutlineGroups } from "react-icons/md";
 import { IoDocumentTextOutline } from "react-icons/io5";
+
 
 function TentangKami() {
   return (
@@ -19,10 +20,18 @@ function TentangKami() {
         alt="vektor"
         className="absolute -right-6 lg:-right-2 top-40 md:top-80 lg:top-96"
       />
-      <div className="w-3/4 md:w-1/2 order-2 md:order-1">
-        <img src={TentangKamiPic} alt="tentang kami pic" className="lg:w-3/4 block mx-auto"/>
+      <div className="w-3/4 md:w-1/2 order-2 md:order-1" data-aos="zoom-in-up">
+        <img
+          src={TentangKamiPic}
+          alt="tentang kami pic"
+          className="lg:w-3/4 block mx-auto"
+        />
       </div>
-      <div className="flex flex-col gap-8 md:gap-6 md:w-1/2 order-1 md:order-2">
+      <div
+        className="flex flex-col gap-8 md:gap-6 md:w-1/2 order-1 md:order-2"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
         <div className="flex flex-col gap-2 lg:gap-4 justify-center">
           <h1 className="text-hijau-800 text-2xl md:text-3xl lg:text-5xl font-semibold">
             Tentang <span className="text-hijau-500">Kami</span>
@@ -39,7 +48,9 @@ function TentangKami() {
                 <PiGraduationCap className="text-hijau-600 size-8 items-center" />
               </div>
               <div>
-                <h1 className="font-bold text-lg text-hijau-800 md:text-xl lg:text-2xl">700+</h1>
+                <h1 className="font-bold text-lg text-hijau-800 md:text-xl lg:text-2xl">
+                  700+
+                </h1>
                 <p className="text-sm text-secondary-abu lg:text-lg md:text-base">
                   Siswa Diterima di PTN
                 </p>
@@ -50,8 +61,12 @@ function TentangKami() {
                 <IoVideocamOutline className="text-oren-500 size-8" />
               </div>
               <div>
-                <h1 className="font-bold text-lg text-hijau-800 md:text-xl lg:text-2xl">500+</h1>
-                <p className="text-sm text-secondary-abu lg:text-lg md:text-base">Video Pembelajaran</p>
+                <h1 className="font-bold text-lg text-hijau-800 md:text-xl lg:text-2xl">
+                  500+
+                </h1>
+                <p className="text-sm text-secondary-abu lg:text-lg md:text-base">
+                  Video Pembelajaran
+                </p>
               </div>
             </div>
           </div>
@@ -61,8 +76,12 @@ function TentangKami() {
                 <MdOutlineGroups className="text-[#ED4459] size-8" />
               </div>
               <div>
-                <h1 className="font-bold text-lg text-hijau-800 md:text-xl lg:text-2xl">20+</h1>
-                <p className="text-sm text-secondary-abu lg:text-lg md:text-base">Master Teacher Keren</p>
+                <h1 className="font-bold text-lg text-hijau-800 md:text-xl lg:text-2xl">
+                  20+
+                </h1>
+                <p className="text-sm text-secondary-abu lg:text-lg md:text-base">
+                  Master Teacher Keren
+                </p>
               </div>
             </div>
             <div className="flex gap-8">
@@ -70,8 +89,12 @@ function TentangKami() {
                 <IoDocumentTextOutline className="text-[#0075FD] size-8" />
               </div>
               <div>
-                <h1 className="font-bold text-lg text-hijau-800 md:text-xl lg:text-2xl">100+</h1>
-                <p className="text-sm text-secondary-abu lg:text-lg md:text-base">Latihan Soal</p>
+                <h1 className="font-bold text-lg text-hijau-800 md:text-xl lg:text-2xl">
+                  100+
+                </h1>
+                <p className="text-sm text-secondary-abu lg:text-lg md:text-base">
+                  Latihan Soal
+                </p>
               </div>
             </div>
           </div>

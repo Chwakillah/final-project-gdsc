@@ -56,13 +56,19 @@ const PreviewKelas = () => {
         src={Line}
         alt="vektor"
         className="absolute top-44 -left-12 lg:top-[380px] lg:left-12"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
       />
       <img
         src={CirclePurple}
         alt="vektor"
         className="absolute bottom-16 lg:top-56 -right-2 lg:right-4 size-6 lg:size-4"
       />
-      <div className="lg:w-1/4 flex flex-col items-center lg:items-start">
+      <div
+        className="lg:w-1/4 flex flex-col items-center lg:items-start"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
         <div className="flex flex-col text-center lg:text-left gap-2 lg:w-full">
           <h1 className="text-hijau-800 text-2xl md:text-3xl lg:text-5xl font-semibold">
             Masih <span className="text-hijau-500">Ragu?</span>
@@ -76,7 +82,12 @@ const PreviewKelas = () => {
         <div className="mt-8">
           <Slider {...settings}>
             {previewKelas.map((preview) => (
-              <div className="card bg-base-100 m-4" key={preview.id}>
+              <div
+                className="card bg-base-100 m-4"
+                key={preview.id}
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+              >
                 <figure>
                   <img
                     src={preview.img}

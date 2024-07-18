@@ -62,7 +62,11 @@ const MasterTeacher = () => {
         className="absolute bottom-0 size-32 -left-6"
       />
       <div className="lg:w-1/4 flex flex-col items-center lg:order-2">
-        <div className="flex flex-col text-center lg:text-left gap-4 lg:w-full z-10">
+        <div
+          className="flex flex-col text-center lg:text-left gap-4 lg:w-full z-10"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
           <h1 className="text-hijau-800 text-2xl md:text-3xl lg:text-5xl font-semibold">
             Master <span className="text-hijau-500">Teacher</span>
           </h1>
@@ -76,7 +80,12 @@ const MasterTeacher = () => {
         <div className="mt-8">
           <Slider {...settings}>
             {masterTeacher.map((teacher) => (
-              <div className="card bg-base-100 w-96 shadow-xl" key={teacher.id}>
+              <div
+                className="card bg-base-100 w-96 shadow-xl"
+                key={teacher.id}
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+              >
                 <div className="card-body">
                   <h2 className="card-title text-hijau-500">{teacher.nama}</h2>
                   <p className="text-secondary-abu">{teacher.mapel}</p>

@@ -24,7 +24,11 @@ function HeroSection() {
             className="absolute top-16 md:top-24 size-3 left-3/4"
           />
 
-          <div className="flex flex-col gap-8 md:gap-12 lg:w-1/2">
+          <div
+            className="flex flex-col gap-8 md:gap-12 lg:w-1/2"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div className="flex flex-col gap-2 justify-center w-full lg:gap-4">
               <h4 className="text-hijau-500 text-xs md:text-base font-medium lg:text-xl">
                 RAIH IMPIAN MASUK PERGURUAN TINGGI NEGERI
@@ -62,7 +66,11 @@ function HeroSection() {
               </label>
             </div>
           </div>
-          <div className="lg:w-1/2">
+          <div
+            className="lg:w-1/2"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <img src={HeroImage} alt="hero" className="w-full object-cover" />
           </div>
         </div>
