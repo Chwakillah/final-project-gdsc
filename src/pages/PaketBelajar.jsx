@@ -39,10 +39,14 @@ const PaketBelajar = () => {
   }, []);
 
   return (
-    <div className="w-full min-h-screen overflow-x-hidden">
+    <div className="w-full min-h-screen overflow-x-hidden overflow-y-hidden">
       <div className="w-full md:px-20 overflow-x-hidden px-8 md:pt-24 md:pb-12 pt-16 pb-8 flex flex-col relative gap-8 bg-gradient-to-b justify-center from-hijau-200 to-white">
         <div className="md:px-20">
-          <div className="bg-base-200 collapse collapse-arrow mt-8 shadow-sm border border-background-light">
+          <div
+            className="bg-base-200 collapse collapse-arrow mt-8 shadow-sm border border-background-light"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+          >
             <input type="checkbox" className="peer" />
             <div className="collapse-title bg-white text-secondary-abu peer-checked:bg-white peer-checked:text-secondary-abu font-semibold">
               Paket Saat Ini
@@ -81,27 +85,36 @@ const PaketBelajar = () => {
           className="absolute -right-4 md:right-2/3 lg:right-3/4 top-0 lg:top-12 z-0 size-24 md:size-32"
         />
         <img
-            src={Sparkle}
-            alt="vektor"
-            className="absolute top-12 lg:top-48 md:left-7 lg:left-8 lg:size-8 size-6 left-16"
-          />
-          <img
-            src={CirclePurple}
-            alt="vektor"
-            className="absolute top-2 left-1/3 size-2 lg:size-3 lg:top-6 lg:left-1/4"
-          />
-          <img
-            src={CircleOrange}
-            alt="vektor"
-            className="absolute top-0 md:top-8 size-3 left-3/4"
-          />
-        <h1 className="text-oren-500 text-2xl md:text-3xl lg:text-5xl font-semibold">
-          <span className="text-hijau-500">Promo </span> Hari Ini
+          src={Sparkle}
+          alt="vektor"
+          className="absolute top-12 lg:top-48 md:left-7 lg:left-8 lg:size-8 size-6 left-16"
+        />
+        <img
+          src={CirclePurple}
+          alt="vektor"
+          className="absolute top-2 left-1/3 size-2 lg:size-3 lg:top-6 lg:left-1/4"
+        />
+        <img
+          src={CircleOrange}
+          alt="vektor"
+          className="absolute top-0 md:top-8 size-3 left-3/4"
+        />
+        <h1
+          className="text-oren-500 text-2xl md:text-3xl lg:text-5xl font-semibold"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
+          <span className="text-hijau-500">Promo </span>
+          Hari Ini
         </h1>
         <div className="card bg-base-100 w-full md:w-3/4 lg:w-1/2">
           <Slider {...settings}>
             {paketPromo.map((promo) => (
-              <div key={promo.id}>
+              <div
+                key={promo.id}
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+              >
                 <figure className="rounded-t-2xl">
                   <img
                     src={promo.img}
@@ -143,7 +156,11 @@ const PaketBelajar = () => {
           alt="vektor"
           className="absolute bottom-0 size-32 -right-6"
         />
-        <h1 className="text-hijau-500 text-2xl md:text-3xl lg:text-5xl font-semibold">
+        <h1
+          className="text-hijau-500 text-2xl md:text-3xl lg:text-5xl font-semibold"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
           <span className="text-hijau-800">Kategori </span> Paket
         </h1>
         <div className="flex flex-col lg:flex-row flex-wrap justify-center gap-8 px-8">
@@ -151,6 +168,9 @@ const PaketBelajar = () => {
             <div
               className="card bg-base-100 w-full md:w-96 lg:w-1/4 border-2 border-background-subtle"
               key={kategori.id}
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-delay={kategori.id * 300}
             >
               <figure className="px-10 pt-10">
                 <img
@@ -173,7 +193,11 @@ const PaketBelajar = () => {
         </div>
       </div>
       <div className="w-full py-24">
-        <div className="card lg:card-side bg-base-100 shadow-xl shadow-background-subtle lg:w-1/2 w-3/4 mx-auto border border-background-subtle">
+        <div
+          className="card lg:card-side bg-base-100 shadow-xl shadow-background-subtle lg:w-1/2 w-3/4 mx-auto border border-background-subtle"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
           <figure className="px-4">
             <IoTicket className="size-24 text-hijau-600" />
           </figure>

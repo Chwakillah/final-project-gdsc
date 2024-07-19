@@ -41,13 +41,8 @@ export const navProfiles = [
     },
     {
       id: 2,
-      path: "/pengaturan",
-      text: "Pengaturan",
-    },
-    {
-      id: 3,
-      path: "/keluar",
-      text: "Keluar",
+      path: "/riwayat",
+      text: "Riwayat Transaksi",
     },
   ];
   
@@ -483,5 +478,22 @@ export const navProfiles = [
           lihat: 'IoIosLock'
         },
       ]
+    },
+  ];
+  export const dataProfil = [
+    {
+      id: 1,
+      icon: 'FaFolderOpen',
+      judul: 'Unduhan Anda',
+    },
+    {
+      id: 2,
+      icon: 'BiSolidMessageAltError',
+      judul: 'Kritik Saran',
+    },
+    {
+      id: 3,
+      icon: 'RiCustomerService2Fill',
+      judul: 'Bantuan',
     },
   ];

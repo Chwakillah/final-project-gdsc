@@ -1,5 +1,5 @@
 
-function Pengaturan() {
+function Riwayat() {
   return (
     <div>
       atur
@@ -7,4 +7,4 @@ function Pengaturan() {
   )
 }
 
-export default Pengaturan
+export default Riwayat
