@@ -42,7 +42,7 @@ const Profil = () => {
                 Gap Year
               </p>
             </div>
-            <button className="btn btn-xs sm:btn-sm btn-outline border-hijau-500 flex gap-2 mt-1 items-center text-hijau-500 hover:bg-hijau-600 font-normal hover:border-none">
+            <button className="btn btn-xs sm:btn-sm btn-outline border-hijau-500 flex gap-2 mt-1 items-center text-hijau-500 hover:text-white hover:bg-hijau-600 font-normal hover:border-none">
               <MdModeEdit className="size-3" />
               <p className="text-xs font-medium">Edit</p>
             </button>
