@@ -1,109 +1,49 @@
 import { NavLink } from "react-router-dom";
-import { navLinks, navProfiles } from "../data/index.js";
-import { FaTiktok } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaBookOpenReader } from "react-icons/fa6";
+import Logo from "../assets/img/logo.svg";
+import { navLinks } from "../data/index.js";
 
 const FooterComponents = () => {
   return (
-    <div>
-      <footer className="footer bg-base-200 text-base-content p-10">
-        <nav>
-          <h4 className="footer-title">MENU</h4>
-          <ul>
+    <footer className="bg-hijau-500 rounded-lg shadow m-4">
+      <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div className="sm:flex sm:items-center sm:justify-between">
+          <NavLink
+            to="/"
+            className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
+          >
+            <img src={Logo} className="size-8" alt="Logo" />
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <h1 className="btn btn-ghost md:text-3xl text-xl text-white italic">
+                Les<span className="text-oren-500">Tasya</span>
+              </h1>
+            </span>
+          </NavLink>
+          <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0">
             {navLinks.map((link) => (
-              <li key={link.id} className="list-none">
+              <li key={link.id}>
                 <NavLink
                   to={link.path}
-                  className={({ isActive }) =>
-                    `${
-                      isActive ? "" : ""
-                    } hover:text-hijau-500 hover:bg-transparent px-2 py-2`
-                  }
-                  end
+                  className="hover:underline me-4 md:me-6"
                 >
                   {link.text}
                 </NavLink>
               </li>
             ))}
           </ul>
-        </nav>
-        <nav>
-            <h4 className="footer-title">PROFIL</h4>
-          <ul>
-            {navProfiles.map((link) => (
-              <li key={link.id} className="list-none">
-                <NavLink
-                  to={link.path}
-                  className={({ isActive }) =>
-                    `${
-                      isActive ? "" : ""
-                    } hover:text-hijau-500 hover:bg-transparent px-2 py-2`
-                  }
-                  end
-                >
-                  {link.text}
-                </NavLink>
-              </li>
-            ))}
-          </ul>
-        </nav>
-        <nav>
-          <h4 className="footer-title">PROFIL</h4>
-          <ul>
-            {navProfiles.map((link) => (
-              <li key={link.id} className="list-none">
-                <NavLink
-                  to={link.path}
-                  className={({ isActive }) =>
-                    `${
-                      isActive ? "" : ""
-                    } hover:text-hijau-500 hover:bg-transparent px-2 py-2`
-                  }
-                  end
-                >
-                  {link.text}
-                </NavLink>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      </footer>
-      <footer className="footer bg-base-200 text-base-content border-secondary-abu border-t px-10 py-4">
-        <aside className="grid-flow-col items-center">
-          <FaBookOpenReader className="size-8 text-hijau-500" />
-          <div className="flex flex-col gap-1">
-            <p className="font-semibold text-hijau-500 text-base">
-              Les <span className="text-oren-500">Tasya</span>
-            </p>
-            <p className="text-secondary-abu">
-              Pendidikan Berkualitas di Ujung Jari Anda
-            </p>
-          </div>
-        </aside>
-        <nav className="md:place-self-center md:justify-self-end">
-          <div className="grid grid-flow-col gap-4 text-hijau-500">
-            <a href="https://www.tiktok.com/@tasya7191?is_from_webapp=1&sender_device=pc">
-              <FaTiktok className="size-6" />
-            </a>
-            <a href="https://www.instagram.com/ntasyazhr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-              <FaInstagramSquare className="size-6" />
-            </a>
-            <a>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                className="fill-current"
-              >
-                <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-              </svg>
-            </a>
-          </div>
-        </nav>
-      </footer>
-    </div>
+        </div>
+        <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+        <span className="block text-sm text-white sm:text-center">
+          © 2024 
+          <NavLink
+            to="https://www.tiktok.com/@tasya7191?is_from_webapp=1&sender_device=pc"
+            className="hover:underline"
+          >
+            Les Tasya
+          </NavLink>
+          . All Rights Reserved.
+        </span>
+      </div>
+    </footer>
   );
 };
 

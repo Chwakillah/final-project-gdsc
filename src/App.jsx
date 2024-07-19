@@ -8,7 +8,6 @@ import NavbarComponents from "./components/NavbarComponents";
 import Riwayat from "./pages/profile/Riwayat";
 import FooterComponents from "./components/FooterComponents";
 import DetailBIndo from "./pages/detailKelas/DetailBIndo";
-import VideoSintaksis1 from "./pages/detailKelas/VideoSintaksis1";
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
         <Route path="/keranjang" Component={LihatKeranjang}></Route>
         <Route path="/riwayat" Component={Riwayat}></Route>
         <Route path="/bindo" Component={DetailBIndo}></Route>
-        <Route path="/sintaksis1" Component={VideoSintaksis1}></Route>
       </Routes>
       <FooterComponents />
     </div>
